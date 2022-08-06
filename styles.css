@@ -52,6 +52,15 @@ a {
 li {
     list-style: none;
 }
+@media (max-width: 630px) {
+    ul {
+        display: inline;
+    }
+    li {
+        margin-bottom: 10px;
+        margin-top: -5px;
+    }
+}
 /* /Header */
 
 /* Input */
@@ -85,6 +94,11 @@ li {
     height: 30px;
     padding-left: 10px;
     cursor: pointer;
+}
+@media (max-width: 630px) {
+    #input-intro {
+        margin-top: 70px;
+    }
 }
 
 /* Video */
